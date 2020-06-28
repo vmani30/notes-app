@@ -5,7 +5,7 @@
 2) Run ```npm install``` to install all neccesary packages
 
 ## Commands
-This app uses 4 commands 
+This app utilizes 4 commands 
   1) ```add``` (supports arguments title and body)
   2) ```remove``` (supports argument title)
   3) ```read``` (supports argument title)
