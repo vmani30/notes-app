@@ -65,8 +65,14 @@ const readNote = (title) => {
         return value.title === title
     })
 
-    console.log(searchNote.title)
-    console.log(searchNote.body)
+    if (searchNote === undefined) {
+        console.log("unable to find note")
+    } else {
+        console.log("Title: " + searchNote.title)
+        console.log("Body: " + searchNote.body)
+    }
+
+    
 
 }
 
